@@ -5,7 +5,7 @@ class Tree{
     this.species = species
   }
 
-  static defination(){
+  static definition(){
     return `A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`
   }
 }
@@ -16,8 +16,8 @@ class Deciduous extends Tree{
     this.name = name
   }
 
-  static defination(){
-    return super.defination() + ` Deciduous trees shed their leaves annually.`
+  static definition(){
+    return super.definition() + ` Deciduous trees shed their leaves annually.`
   }
 }
 
@@ -27,11 +27,11 @@ class Evergreen extends Tree{
     this.name = name
   }
 
-  static defination(){
-    return super.defination() + ` Evergreens keep their leaves all year round.`
+  static definition(){
+    return super.definition() + ` Evergreens keep their leaves all year round.`
   }
 }
 
 let tree = new Deciduous("rosewood", "coco")
-console.log(Deciduous.defination())
+console.log(Deciduous.definition())
 console.log(tree.name)
